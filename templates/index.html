@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+  <title>
+    Play ECOLOGY.EISBERG
+  </title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="pandoc.css">
+  <link rel="stylesheet" type="text/css" href="{{ get_url(path="pandoc.css") }}">
 </head>
 <body>
+	<header>
+		<ul>
+			<li>
+				<a href="{{ get_url(path="@/natur.md") }}">Natur-Regeln</a>
+			</li>
+			<li>
+				<a href="{{ get_url(path="@/industrie.md") }}">Industrie-Regeln</a>
+			</li>
+		</ul>
+	</header>
 	{{ section.content | safe }}
 </body>
 </html>
