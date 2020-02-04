@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+
+{% block logo %}
+  <div class="imagecontainer">
+    <a href="/">
+      <img id="logo" src="{{ get_url(path="qrcode.png") | safe }}"/>
+    </a>
+  </div>
+{% endblock logo %}

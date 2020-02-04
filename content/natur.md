@@ -19,7 +19,7 @@ Dann wird der Reihe nach gespielt, d.h. abwechselnd eine Figur aufgestellt.
 
 Die Natur war zuerst hier und darf deswegen anfangen.
 
-## Der Fluss und die Bäume
+# Der Fluss und die Bäume
 
 Das Spiel baut sich für die Natur um den Fluss und den Eisberg herum auf.
 Der Fluss muss an der Meereskante beginnen.
@@ -33,14 +33,14 @@ Bei Zerstörung eines seiner verbindenden Teile muss sein *lückenloser Verlauf*
 Bäume können lotrecht oder schräg zum Flussverlauf hin aufgestellt werden, jedoch stets zuerst in Feld 1, dann erst in Feld 2.
 Denn ohne Baum in Feld 1 keine Bewässerung in Feld 2!
 
-## Die Vulkane
+# Die Vulkane
 
 Ein Vulkan verhindert den Bau von Häusern in den ihn umgebenden Feldern, jedoch nicht von Flüssen, Bäumen oder Straßen.
 Er muss *in der Mitte von 9 leeren Feldern* aufgestellt werden.
 Bei jedem Setzen eines Vulkans taut der Eisberg.
 Nach seiner Aufstellung kann ein Vulkan weder zerstört noch umplatziert werden.
 
-## Die Erdbeben
+# Die Erdbeben
 
 Erdbeben zerstören alles ihnen im Weg stehende, *abgesehen von Vulkanen*.
 Du kannst die Erdbeben in jedem Zug benutzen, jedoch darf immer nur ein Erdbeben zur gleichen Zeit aktiv sein.

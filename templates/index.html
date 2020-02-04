@@ -3,20 +3,34 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {% block title %}{% if section.title %}{{ section.title }}{% else %}{{ config.title }}{% endif %}{% endblock title %}
+    {% block title %}
+	{% set this = section | default(value=page) %}
+	{% if this.title %}{{ this.title }}{% else %}{{ config.title }}{% endif %}{% endblock title %}
   </title>
-  <link rel="icon" href="{{ get_url(path="play.ecology.eisberg-transparent.png") | safe }}">
+  <link rel="icon" href="{{ get_url(path="logo.png") | safe }}">
   <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
 </head>
 <body>
+  <header>
+  {% block logo -%}
   <div class="imagecontainer">
     <a href="/">
-      <img id="logo" src="{{ get_url(path="play.ecology.eisberg-transparent.png") | safe }}"/>
+      <img id="logo" src="{{ get_url(path="logo.png") | safe }}"/>
     </a>
   </div>
+  {%- endblock logo %}
+  </header>
+  <h1>
+	{% set this = section | default(value=page) %}
+	{{ this.title }}
+  </h1>
+  <main>
   {% block content -%}
-    {{ section.content | safe }}
+	{% set this = section | default(value=page) %}
+    {{ this.content | safe }}
   {%- endblock content %}
+  </main>
+  <footer>
   {% block navigation -%}
     <nav>
       {% for page in section.pages %}
@@ -24,6 +38,7 @@
       {% endfor %}
     </nav>
   {%- endblock navigation %}
+  </footer>
 </body>
 </html>
 <!-- Quellcode: https://github.com/Play-ECOLOGY-EISBERG/play-ecology-eisberg.github.io -->

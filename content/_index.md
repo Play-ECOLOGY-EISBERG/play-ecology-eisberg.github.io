@@ -3,8 +3,6 @@ title = "Play ECOLOGY.EISBERG"
 sort_by = "weight"
 +++
 
-# Play ECOLOGY.EISBERG
-
 Ein strategisches Spiel für zwei Personen.
 
 Ein Spieler spielt die Natur, der andere die Industrie.

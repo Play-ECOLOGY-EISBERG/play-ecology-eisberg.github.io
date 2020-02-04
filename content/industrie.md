@@ -19,7 +19,7 @@ Dann wird der Reihe nach gespielt, d.h. abwechselnd eine Figur aufgestellt.
 
 Die Natur war zuerst hier und darf deswegen anfangen.
 
-## Die Straße und Häuser
+# Die Straße und Häuser
 
 Das Spiel baut sich für die Industrie um die Straße herum auf.
 Die Straße kann an einer beliebigen Spielfeldkante beginnen, jedoch nicht am Eisberg und an den ihn begrenzenden Wasserfeldern.
@@ -33,7 +33,7 @@ Bei Zerstörung eines ihrer verbindenden Teile muss ihr *lückenloser Verlauf* w
 Häuser können lotrecht oder schräg zum Straßenverlauf hin aufgestellt werden, jedoch stets zuerst in Feld 1, dann erst in Feld 2.
 Denn ohne Haus in Feld 1 keine Erschließung von Feld 2!
 
-## Die Umweltverschmutzung
+# Die Umweltverschmutzung
 
 Die Umweltverschmutzung zerstört Straßen, Flüsse, Häuser und Bäume in ihrem Pfad.
 Du kannst die Umweltverschmutzung in jedem Zug benutzen.
@@ -47,7 +47,7 @@ Die Umweltverschmutzungs-Figur bleibt nun bis zu deinem nächsten Zug im Endfeld
 
 Du darfst mit der Umweltverschmutzung auch eigene Figuren zerstören, um zum Beispiel aus einer schwierigen Lage herauszukommen.
 
-## Die Fabriken
+# Die Fabriken
 
 Eine Fabrik verhindert das Pflanzen von Bäumen in den sie umgebenden Feldern, jedoch nicht das Setzen von Flüssen, Straßen oder Häusern.
 Sie muss *in der Mitte von 9 leeren Feldern* aufgestellt werden.
