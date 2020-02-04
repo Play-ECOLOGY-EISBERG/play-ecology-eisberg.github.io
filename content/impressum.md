@@ -7,3 +7,5 @@ template = "impressum.html"
 Spieldesign: Mascha Katrych.
 
 Webseite: Patrice Peterson.
+[Code](https://github.com/Play-ECOLOGY-EISBERG/play-ecology-eisberg.github.io),
+[QR](https://www.unitag.io/qrcode).
