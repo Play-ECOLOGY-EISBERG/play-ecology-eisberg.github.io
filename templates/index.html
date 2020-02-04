@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <title>
-    Play ECOLOGY.EISBERG
-  </title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="{{ get_url(path="pandoc.css") }}">
+  <title>
+    {% block title %}{% if section.title %}{{ section.title }}{% else %}{{ config.title }}{% endif %}{% endblock title %}
+  </title>
+  <link rel="icon" href="{{ get_url(path="play.ecology.eisberg-transparent.png") }}">
+  <link rel="stylesheet" href="{{ get_url(path="pandoc.css") }}">
 </head>
 <body>
-	{{ section.content | safe }}
+  {% block content -%}
+    {{ section.content | safe }}
+  {%- endblock content %}
+  {% block navigation %}
+    {% for page in section.pages %}
+      <a href="{{ page.path }}">{{ page.title }}.</a>
+    {% endfor %}
+  {% endblock navigation %}
 </body>
 </html>
