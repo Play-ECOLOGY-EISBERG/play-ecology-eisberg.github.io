@@ -2,13 +2,6 @@
 title = "Regeln für die Natur"
 +++
 
-> Der eine Spieler vertritt die Natur, der andere die Industrie.
-> Für die Natur gilt es, am Fluss zu wachsen.
-> Die Natur gewinnt, wenn sie alle Steine auf dem Spielfeld platziert hat.
-> Die Natur verliert, wenn die Industrie zuerst alle Steine auf dem Spielfeld platziert hat oder der Eisberg komplett abgetaut ist.
-
-# Spielregeln
-
 Der Natur-Spieler verfügt über 49 Spielfiguren:
 
 - 12 gerade Flussteile

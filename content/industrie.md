@@ -2,12 +2,6 @@
 title = "Regeln für die Industrie"
 +++
 
-> Der eine Spieler vertritt die Natur, der andere die Industrie.
-> Für die Industrie gilt es, an der Straße zu bauen.
-> Die Industrie gewinnt, wenn sie alle Steine auf dem Spielfeld platziert oder den Eisberg zum Abtauen gebracht hat.
-
-# Spielregeln
-
 Der Industrie-Spieler verfügt über 47 Spielfiguren:
 
 - 12 gerade Straßenteile
