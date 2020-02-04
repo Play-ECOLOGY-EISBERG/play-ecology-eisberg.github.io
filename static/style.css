@@ -72,6 +72,16 @@ img {
 	justify-content: center;
 }
 
+nav > a {
+	font-weight: 800;
+	color: black;
+}
+
+nav > a:visited {
+	font-weight: 800;
+	color: black;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #111;
   line-height: 125%;

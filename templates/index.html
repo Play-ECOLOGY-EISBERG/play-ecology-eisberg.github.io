@@ -17,11 +17,13 @@
   {% block content -%}
     {{ section.content | safe }}
   {%- endblock content %}
-  {% block navigation %}
-    {% for page in section.pages %}
-      <a href="{{ page.path }}">{{ page.title }}.</a>
-    {% endfor %}
-  {% endblock navigation %}
+  {% block navigation -%}
+    <nav>
+      {% for page in section.pages %}
+        <a href="{{ page.path }}">{{ page.title }}.</a>
+      {% endfor %}
+    </nav>
+  {%- endblock navigation %}
 </body>
 </html>
 <!-- Quellcode: https://github.com/Play-ECOLOGY-EISBERG/play-ecology-eisberg.github.io -->
