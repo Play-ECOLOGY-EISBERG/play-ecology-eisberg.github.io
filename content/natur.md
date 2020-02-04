@@ -1,5 +1,5 @@
 +++
-title = "Regeln für Natur"
+title = "Regeln für die Natur"
 +++
 
 > Der eine Spieler vertritt die Natur, der andere die Industrie.
