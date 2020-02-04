@@ -2,8 +2,6 @@
 title = "Play ECOLOGY.EISBERG"
 +++
 
-![Logo](play.ecology.eisberg-transparent.png)
-
 # Play ECOLOGY.EISBERG
 
 Ein strategisches Spiel für zwei Personen.
