@@ -5,13 +5,13 @@
   <title>
     {% block title %}{% if section.title %}{{ section.title }}{% else %}{{ config.title }}{% endif %}{% endblock title %}
   </title>
-  <link rel="icon" href="{{ get_url(path="play.ecology.eisberg-transparent.png") }}">
-  <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+  <link rel="icon" href="{{ get_url(path="play.ecology.eisberg-transparent.png") | safe }}">
+  <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
 </head>
 <body>
   <div class="imagecontainer">
     <a href="/">
-      <img id="logo" src="{{ get_url(path="play.ecology.eisberg-transparent.png") }}"/>
+      <img id="logo" src="{{ get_url(path="play.ecology.eisberg-transparent.png") | safe }}"/>
     </a>
   </div>
   {% block content -%}
