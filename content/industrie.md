@@ -1,5 +1,6 @@
 +++
 title = "Regeln für die Industrie"
+weight = 0
 +++
 
 Der Industrie-Spieler verfügt über 47 Spielfiguren:

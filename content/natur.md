@@ -1,5 +1,6 @@
 +++
 title = "Regeln für die Natur"
+weight = 0
 +++
 
 Der Natur-Spieler verfügt über 49 Spielfiguren:
