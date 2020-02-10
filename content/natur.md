@@ -23,7 +23,7 @@ Die Natur war zuerst hier und darf deswegen anfangen.
 
 Das Spiel baut sich für die Natur um den Fluss und den Eisberg herum auf.
 Der Fluss muss an der Meereskante beginnen.
-Der Fluss und die Straße können einander kreuzen.
+Der Fluss kann andere Flussteile kreuzen, aber nicht die Straße.
 
 Der Fluss muss in ungebrochener Linie verlaufen.
 Bei Zerstörung eines seiner verbindenden Teile muss sein *lückenloser Verlauf* wiederhergestellt werden, bevor ein Baum oder ein Vulkan gesetzt werden kann.

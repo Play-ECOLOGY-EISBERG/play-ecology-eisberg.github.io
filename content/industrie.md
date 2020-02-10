@@ -23,7 +23,7 @@ Die Natur war zuerst hier und darf deswegen anfangen.
 
 Das Spiel baut sich für die Industrie um die Straße herum auf.
 Die Straße kann an einer beliebigen Spielfeldkante beginnen, jedoch nicht am Eisberg und an den ihn begrenzenden Wasserfeldern.
-Der Fluss und die Straße können einander kreuzen.
+Die Straße kann andere Straßen- und Flussteile kreuzen.
 
 Die Straße muss in ungebrochener Linie verlaufen.
 Bei Zerstörung eines ihrer verbindenden Teile muss ihr *lückenloser Verlauf* wiederhergestellt werden, bevor ein Haus oder eine Fabrik gesetzt werden kann.
