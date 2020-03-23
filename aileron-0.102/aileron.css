@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-thin.woff2') format('woff2');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-thin-italic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-ultralight.woff2') format('woff2');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-ultralight-italic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-light.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-light-italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron--italic.woff2') format('woff2');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-semibold-italic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-bold.woff2') format('woff2');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-bold-italic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-heavy.woff2') format('woff2');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-heavy-italic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-black.woff2') format('woff2');
+    font-weight: 950;
+}
+@font-face {
+    font-family: 'aileron';
+    src: url('aileron-black-italic.woff2') format('woff2');
+    font-weight: 950;
+    font-style: italic;
+}

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://play-ecology-eisberg.github.io/sitemap.xml
